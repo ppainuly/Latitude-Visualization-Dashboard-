@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <title>Latitude Dashboad</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -37,19 +38,21 @@
 
         <div class="container pt-5 mx-auto">
                  <div class="row">
-                        <div class="col-lg-7 col-md-12 " style="background-color: white">
+                    <div class="col-lg-7 col-md-12 " style="background-color: white" >
                             <h1 class="display-5">Summary: Laditude vs. X</h1>
                             <hr/>
-                            
-                            <img src="Plot_CityLatitude_v_MaxTemperature.png" class="img-fluid" alt="City-Temp Scatter Plot" style="width: 55%"/>
+                        <div class="image-wrapper float-left pr-3">
+                            <img src="Plot_CityLatitude_v_MaxTemperature.png" class="img-fluid" alt="City-Temp Scatter Plot" style="width: 45%" />
+                        </div>
+                        <div class="single-post-content-wrapper float-right p-3">
                             <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, 
                                 we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities. </p>
 
                             <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. 
                                 Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.
-                            </p>
-                            
-                        </div>
+                            </p> 
+                        </div>    
+                    </div>
                     
                         <div class="ml-4 col-lg-4 col-md-12 pl-3" style="background-color: white">
                                         <h1 class="display-5">Visualizations</h1>
