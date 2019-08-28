@@ -41,15 +41,13 @@
               <div class="col-lg-7 col-md-12">
 
                 <div class="box" style="padding-bottom: 5px;">
-                  <h3 class="title">Max Temperature</h3>
+                  <h3 class="title">Max Humidity</h3>
                   <hr>
-                  <img src="Plot_CityLatitude_v_MaxTemperature.png" alt="Temperature v Latitude Graph" style="width: 95%" >
-                  <p>As the city latitude increases i.e cities are further away from the equator, the maximum 
-                      temperature increase. There is an inverse correlation between distance to equator(centre 
-                      of the earth) and temperature. However, the temperature is greater as we approach latitudes 
-                      close to 20 degrees(tropics) which can be explained by the earth's tilted axis.Additionally, 
-                      since the time of this analysis has the northern hemisphere tilted towards the sun, the tropics 
-                      at the northern hemisphere have the hottest temperature.</p>
+                  <img src="Plot_CityLatitude_v_Humidity.png" alt="Humidity v Latitude Graph" style="width: 95%" >
+                  <p>We can see the outlier in this plot. The outlier is for two cities with humidity = 300%. 
+                    This is an error from the OpenWeather API becasue the response for these cities had this 
+                    value for Humidity. This is physically impossible becasue the cities will have to be under 
+                    water if this is the case.</p>
                 </div>
               </div>
               <div class="col-lg-5 col-md-12">
@@ -61,14 +59,13 @@
                   <div class="container">
                     <div class="row pt-4" >
                       <div class="col-6">
-                        <a href="#">
+                        <a href="temperature.html">
                           <img class="img-fluid" src="Plot_CityLatitude_v_MaxTemperature.png" alt="Max Temperature Image">
                         </a>
-
                       </div>
                       <div class="col-6">
-                        <a href="humidity.html">
-                          <img class="img-fluid" src="Plot_CityLatitude_v_Humidity.png" alt="Humidity Graph">
+                        <a href="#">
+                          <img class="img-fluid active" src="Plot_CityLatitude_v_Humidity.png" alt="Humidity Graph">
                         </a>
                       </div>
                     </div>
