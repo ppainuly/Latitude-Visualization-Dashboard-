@@ -43,11 +43,8 @@
                 <div class="box" style="padding-bottom: 5px;">
                   <h3 class="title">Max Humidity</h3>
                   <hr>
-                  <img src="Plot_CityLatitude_v_Humidity.png" alt="Humidity v Latitude Graph" style="width: 95%" >
-                  <p>We can see the outlier in this plot. The outlier is for two cities with humidity = 300%. 
-                    This is an error from the OpenWeather API becasue the response for these cities had this 
-                    value for Humidity. This is physically impossible becasue the cities will have to be under 
-                    water if this is the case.</p>
+                  <img src="Plot_CityLatitude_v_WindSpeed.png" alt="Wind Speed v Latitude Graph" style="width: 95%" >
+                  <p>Wind speed has a small increase as the latitudes increase away from the equator. However, the correlation is not strong and additional dataset is required for further analysis.</p>
                 </div>
               </div>
               <div class="col-lg-5 col-md-12">
@@ -64,7 +61,7 @@
                         </a>
                       </div>
                       <div class="col-6">
-                        <a href="#">
+                        <a href="humidity.html">
                           <img class="img-fluid active" src="Plot_CityLatitude_v_Humidity.png" alt="Humidity Graph">
                         </a>
                       </div>
@@ -77,7 +74,7 @@
                         </a>
                       </div>
                       <div class="col-6">
-                        <a href="windspeed.html">
+                        <a href="#">
                           <img class="img-fluid" src="Plot_CityLatitude_v_WindSpeed.png" alt="Wind Speed Graph">
                         </a>
                       </div>
