@@ -1,0 +1,23 @@
+h1{
+    color:  #0BADA6;
+    text-align: center;
+    font-weight: bold;
+    font-stretch: expanded;
+}
+
+h2{
+    color:  #0BADA6;
+    text-align: center;
+    font-weight: bold;
+    font-stretch: expanded;
+
+}
+.title{
+    color:  #0BADA6;
+    text-align: center;
+
+}
+.navbar-brand{
+    padding-right: 10px; 
+    padding-left: 10px;
+}
